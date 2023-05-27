@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	main {
+		@apply flex flex-col min-h-[calc(100vh-80px)] items-center text-white bg-slate-950;
+	}
+}
